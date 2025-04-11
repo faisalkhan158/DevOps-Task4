@@ -1,7 +1,7 @@
 # 🚀 DevOps Task 4 – Build a Version-Controlled DevOps Project with Git
 
 ## 📌 Objective  
-Implement a version-controlled DevOps project using Git and GitHub best practice
+Implement a version-controlled DevOps project using Git and GitHub best practice 
 
 ---
 
