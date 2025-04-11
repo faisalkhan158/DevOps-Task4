@@ -3,7 +3,7 @@ import os
 TASKS_FILE = "tasks.txt"
 
 def load_tasks():
-    if not os.path.exists(TASKS_FILE):
+    if not os.path.exists(TASKS_FILE) or os.path.getsize(TASKS_FILE) == 0:
         return []
     with open(TASKS_FILE, "r") as file:
         return [line.strip() for line in file.readlines()]
